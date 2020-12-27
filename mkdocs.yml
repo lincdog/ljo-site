@@ -1,4 +1,10 @@
-site_name: My Docs by GitLab Pages
+site_name: Lincoln Ombelets - ljo.bio 
 site_url: http://ljo.bio/mkdocs
 site_dir: public/mkdocs
 theme: slate 
+
+nav:
+  - 'index.md'
+  - 'reading.md'
+  - 'about.md'
+  - 'posts'

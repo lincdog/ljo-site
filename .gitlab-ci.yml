@@ -19,6 +19,7 @@ pages:
   - mkdocs build --strict --verbose
   artifacts:
     paths:
-    - public
+    - public/mkdocs
   only:
   - master
+  - mkdocs

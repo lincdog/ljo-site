@@ -21,5 +21,4 @@ pages:
     paths:
     - public/mkdocs
   only:
-  - master
   - mkdocs

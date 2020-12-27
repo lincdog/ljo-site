@@ -1,6 +1,6 @@
 site_name: Lincoln Ombelets - ljo.bio 
-site_url: http://ljo.bio/mkdocs
-site_dir: public/mkdocs
+site_url: http://ljo.bio/
+site_dir: public/
 theme: slate 
 
 nav:

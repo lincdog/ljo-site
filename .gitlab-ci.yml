@@ -16,9 +16,9 @@ test:
 pages:
   stage: deploy
   script:
-  - mkdocs build --strict --verbose --site-dir public/mkdocs
+  - mkdocs build --strict --verbose --site-dir public/
   artifacts:
     paths:
-    - public/mkdocs
+    - public/
   only:
   - mkdocs

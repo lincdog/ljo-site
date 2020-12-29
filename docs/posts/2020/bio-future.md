@@ -1,6 +1,8 @@
 ---
+post: 1
 title:  "Biology's complexity problem"
-date:   2020-08-01 18:00:00 -0800
+date:   2020-08-01
+
 ---
 
 # Highlights

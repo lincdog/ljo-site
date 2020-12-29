@@ -1,10 +1,6 @@
-# Home
+## Home
 
-## Posts
+	Hello!
 
-## Project layout
+### Posts
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.

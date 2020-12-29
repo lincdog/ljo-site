@@ -1,11 +1,13 @@
 site_name: Lincoln Ombelets - ljo.bio 
 site_url: http://ljo.bio/
 site_dir: public/
-theme: slate 
+theme: flatly 
 
 nav:
   - 'index.md'
   - 'reading.md'
   - 'about.md'
   - 'publications.md'
-  - 'posts/2020-08-01-bio-future.md'
+
+plugins:
+  - blog

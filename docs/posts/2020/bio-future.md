@@ -2,6 +2,7 @@
 post: 1
 title:  "Biology's complexity problem"
 date:   2020-08-01
+description: An attempt to honestly assess our current understanding of biology through an analogy.
 
 ---
 

@@ -13,6 +13,13 @@
 {%- endblock %}
 
 
+{%- block content %}
+<div class="col-md-3">
+{%- if config.theme.include_sidebar %}{% include "toc.html" %}{%- endif %}
+</div>
+<div class="col-md-9" role="main">{% include "content.html" %}</div>
+{%- endblock %}
+
 
 {%- block site_nav %}
   {%- if nav|length>1 %}

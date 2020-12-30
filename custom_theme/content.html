@@ -4,7 +4,7 @@
   <ul>
   {% for p in nav.pages|selectattr("meta")|selectattr("meta.post")|sort(attribute="meta.date", reverse=True)  %}
       <li><a href="{{ p.url|url }}">{{ p.meta.title }} ({{ p.meta.date }}) </a></li>
-        <hr />
+        
   {% endfor %}
   </ul>
 {% endif %}

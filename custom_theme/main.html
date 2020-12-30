@@ -27,7 +27,9 @@
     <ul class="nav navbar-nav">
     {%- for nav_item in nav %}
     {%- if nav_item.children  %}
-      {%- if not config.extra.posts_dir.startswith(nav_item.title.lower()) %}
+
+      {%- if not (config.extra.posts_dir.startswith(nav_item.title.lower())) %}
+
       <li class="dropdown{% if nav_item.active %} active{% endif %}">
         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">{{ nav_item.title }} <b class="caret"></b></a>
         <ul class="dropdown-menu">

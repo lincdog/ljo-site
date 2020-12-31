@@ -13,6 +13,8 @@ theme:
 #plugins:
 #  - blog
 
+extra_css:
+  - 'extra.css'
 
 extra:
   posts_dir: 'posts/'

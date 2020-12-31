@@ -1,12 +1,12 @@
 {{ page.content }}
 
 {% if page.is_homepage %}
-  <ul>
+  
   {% for p in nav.pages|selectattr("meta")|selectattr("meta.post")|sort(attribute="meta.date", reverse=True)  %}
-      <li><a href="{{ p.url|url }}">{{ p.meta.title }} ({{ p.meta.date }}) </a>
-        {% if p.meta.description %}<pre>{{ p.meta.description }}</pre>{% endif %}
-      </li>
+  <big> <a href="{{ p.url|url }}">{{ p.meta.title }} ({{ p.meta.date }}) </a></big>
+  {% if p.meta.description %} <br />&nbsp;&nbsp;  {{ p.meta.description }}{% endif %}
+  <br />    
         
   {% endfor %}
-  </ul>
+  
 {% endif %}

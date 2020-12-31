@@ -4,8 +4,7 @@
   
   {% for p in nav.pages|selectattr("meta")|selectattr("meta.post")|sort(attribute="meta.date", reverse=True)  %}
   <big> <a href="{{ p.url|url }}">{{ p.meta.title }} ({{ p.meta.date }}) </a></big>
-  {% if p.meta.description %} <br />&nbsp;&nbsp;  {{ p.meta.description }}{% endif %}
-  <br />    
+  {% if p.meta.description %}<br /><div style='padding-left: 15px'>{{ p.meta.description }}</div>{% endif %}
         
   {% endfor %}
   

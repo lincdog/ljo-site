@@ -7,7 +7,7 @@ date: 2020-12-31
 
 When I was growing up and until recently, I was subject to the popular delusion that institutions such as Ivy League and other vaunted colleges and universities were "the best" in the world. What "the best" meant was not so clear in anything other than a vague feeling of superiority and the image of myriad articles on discoveries or inventions or popular media appearances of these institutions.
 
-When I got into Caltech, I was ecstatic that I was given a place at one of these "top" places. I thought there must be a superior quality of people at any such place, and going to one was a validation of one's ambitions and ideas - and a guarantee of success. After a year or so at the school and the inevitable dulling and tempering of one's expectations that always occurs when the reality of a long-imagined possibility is finally experienced, I realized how hard it is to define what this idea of being the "best" meant. 
+When I got into Caltech, I was ecstatic that I was given a place at one of these "top" places. I thought there must be a superior quality of people at any such place, and going to one was a validation of one's ambitions and ideas - and a guarantee of success. After a year or so at the school and the inevitable dulling and tempering of one's expectations that occurs when the reality of a long-imagined possibility is finally experienced, I realized most of this wasn't true, and how hard it is to define what this idea of being the "best" meant. 
 
 Does it mean there is no one at any "lesser" place doing work better than anyone at Caltech? Does it mean the average quality of work is better than at other places? Or that researchers have more money and resources? How do you judge the quality of work? 
 

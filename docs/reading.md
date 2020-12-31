@@ -1,18 +1,19 @@
 ---
-layout: page
 title: Reading List
-permalink: /reading/
 ---
 
-*Updated 7/22/2020*
+*Updated 12/30/2020*
 
-# Science
-* [*Agent-Based and Individual-Based Modeling: A Practical Introduction*](https://press.princeton.edu/books/paperback/9780691136745/agent-based-and-individual-based-modeling) by Steven Railsback and Karl Grimm
+# Currently Reading
+* *The Tyranny of Merit* by Michael Sandel
+* *Elementary Applied Topology* by Robert Ghrist
+* *In Search of Lost Time* by Marcel Proust
+* *Thich Nhat Hanh: Essential Writings*
 
-# Economics
-* [*The Great Transformation*](https://www.amazon.com/Great-Transformation-Political-Economic-Origins/dp/080705643X) by Karl Polanyi
+# On Deck
+* *The Tacit Dimension* by Michael Polanyi
+* *We Have Never Been Modern* by Bruno Latour
+* *Laboratory Life* by Bruno Latour and Steve Woolgar
+* *Against Method* by Paul Feyerabend
+* *Envisioning Information* by Edward Tufte
 
-# Philosophy
-
-
-# Fiction

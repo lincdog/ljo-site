@@ -1,9 +1,8 @@
 ---
-layout: page
 title: About
-permalink: /about/
 ---
 
+# Background and education
 My name is Lincoln Ombelets. I grew up in the Boston area and attended Northeastern University where I studied chemistry. 
 Now I'm a third-year graduate student in the chemistry PhD program at Caltech in Pasadena, California. 
 
@@ -15,6 +14,7 @@ The key tricks that enable this technology are custom DNA strands encoding the i
 
 ------------------
 
+# The challenge of biological complexity
 
 Although I studied chemistry in college, and conducted research synthesizing new drug-like molecules, I was drawn to biological research when I learned about the incredible complexity and coordination found in living systems. Biological complexity is fundamental chemical in nature, and unlike humans, even the simplest organisms are able to manipulate highly complex molecules with razor-sharp precision. 
 
@@ -22,11 +22,11 @@ Furthermore, the scale of living complexity covers many orders of magnitude - ce
 
 ------------------
 
+# The challenge of society
 
 Another great challenge for humanity is learning how to build societies that are fairer, kinder and more equitable than previous generations. During the coronavirus pandemic and the George Floyd protests, I have started reflecting more on sociopolitical and philosophical issues than ever before. What is the best way to govern large numbers of people? What is the role of the media? What is the role of the economic system? How can we educate future generations so that the mistakes of the past and present are not endlessly repeated? How can I even conceive of these issues which, like biology, span many scales of complexity and involve unknown effects of unknown magnitudes? I am I am trying to become better informed and better read on some of the philosophers and thinkers that have historically pondered these big topics.
 
 ------------------
-
 
 These are some of the overarching questions which I am curious about - philosophy of science, interdisciplinary research, and political/economic philosophy. I am really at the very beginning of learning about most of these things (disclaimer!), and I have never blogged or posted much on social media. But I hope to use this website to air some of my nascent and evolving thoughts on these issues, and welcome constructive feedback [via email](mailto:lombelets [at] caltech [at] edu). 
 

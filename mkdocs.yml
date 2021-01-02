@@ -1,6 +1,8 @@
 site_name: Lincoln Ombelets - ljo.bio 
 site_url: http://ljo.bio/
 site_dir: public/
+repo_url: https://gitlab.com/lincdog/ljo-site
+site_author: Lincoln Ombelets
 
 google_analytics: ['G-C04TMKNPL7', 'ljo.bio']
 

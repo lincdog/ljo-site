@@ -5,7 +5,7 @@ FILES="."
 MESSAGE="$0 at $(date)"
 
 usage() { 
-	echo <<EOF
+	echo " 
 Usage: $0 [-d] [-b] [-m <message>] [-f <files>] [ -l <logfile> ]
 
 -d	dry-run, only build local copy, do not commit or deploy site.
@@ -13,12 +13,11 @@ Usage: $0 [-d] [-b] [-m <message>] [-f <files>] [ -l <logfile> ]
 -m MESSAGE	supply a commit message for the main branch
 -f FILES	supply files to be committed to main; default .
 -l LOGFILE	specify a logfile name; default build.log
-EOF
+"
 
 	exit 0;
 }
 
-usage()
 
 while getopts ":dbm:f:l:" OPTION; do
 	case $OPTION in

@@ -1,2 +1,76 @@
-build.sh started at Sun 03 Jan 2021 11:03:20 AM EST
+build.sh started at Sun 03 Jan 2021 11:10:03 AM EST
+DEBUG   -  Loading configuration file: /home/lincoln/Insync/lombelets_drive/website/mkdocs/mkdocs.yml 
+DEBUG   -  Loaded theme configuration for 'flatly' from '/home/lincoln/anaconda3/envs/mkdocs/lib/python3.8/site-packages/mkdocs_bootswatch/flatly/mkdocs_theme.yml': {'extends': 'mkdocs', 'hljs_style': 'docco'} 
+DEBUG   -  Loaded theme configuration for 'mkdocs' from '/home/lincoln/anaconda3/envs/mkdocs/lib/python3.8/site-packages/mkdocs/themes/mkdocs/mkdocs_theme.yml': {'static_templates': ['404.html'], 'include_search_page': False, 'search_index_only': False, 'highlightjs': True, 'hljs_languages': [], 'hljs_style': 'github', 'navigation_depth': 2, 'nav_style': 'primary', 'shortcuts': {'help': 191, 'next': 78, 'previous': 80, 'search': 83}} 
+DEBUG   -  Config value: 'config_file_path' = '/home/lincoln/Insync/lombelets_drive/website/mkdocs/mkdocs.yml' 
+DEBUG   -  Config value: 'site_name' = 'Lincoln Ombelets - ljo.bio' 
+DEBUG   -  Config value: 'nav' = None 
+DEBUG   -  Config value: 'pages' = None 
+DEBUG   -  Config value: 'site_url' = 'http://ljo.bio/' 
+DEBUG   -  Config value: 'site_description' = None 
+DEBUG   -  Config value: 'site_author' = 'Lincoln Ombelets' 
+DEBUG   -  Config value: 'theme' = Theme(name='flatly', dirs=['/home/lincoln/Insync/lombelets_drive/website/mkdocs/custom_theme/', '/home/lincoln/anaconda3/envs/mkdocs/lib/python3.8/site-packages/mkdocs_bootswatch/flatly', '/home/lincoln/anaconda3/envs/mkdocs/lib/python3.8/site-packages/mkdocs/themes/mkdocs', '/home/lincoln/anaconda3/envs/mkdocs/lib/python3.8/site-packages/mkdocs/templates'], static_templates=['sitemap.xml', '404.html'], include_search_page=False, search_index_only=False, highlightjs=True, hljs_languages=[], hljs_style='docco', navigation_depth=3, nav_style='primary', shortcuts={'help': 191, 'next': 78, 'previous': 80, 'search': 83}, include_sidebar=True) 
+DEBUG   -  Config value: 'docs_dir' = '/home/lincoln/Insync/lombelets_drive/website/mkdocs/docs' 
+DEBUG   -  Config value: 'site_dir' = '/home/lincoln/Insync/lombelets_drive/website/mkdocs/build' 
+DEBUG   -  Config value: 'copyright' = None 
+DEBUG   -  Config value: 'google_analytics' = ['G-C04TMKNPL7', 'ljo.bio'] 
+DEBUG   -  Config value: 'dev_addr' = Address(host='127.0.0.1', port=8000) 
+DEBUG   -  Config value: 'use_directory_urls' = True 
+DEBUG   -  Config value: 'repo_url' = 'https://github.com/lincdog/ljo-site/' 
+DEBUG   -  Config value: 'repo_name' = 'GitHub' 
+DEBUG   -  Config value: 'edit_uri' = 'blob/main/docs/' 
+DEBUG   -  Config value: 'extra_css' = ['extra.css'] 
+DEBUG   -  Config value: 'extra_javascript' = [] 
+DEBUG   -  Config value: 'extra_templates' = [] 
+DEBUG   -  Config value: 'markdown_extensions' = ['toc', 'tables', 'fenced_code'] 
+DEBUG   -  Config value: 'mdx_configs' = {} 
+DEBUG   -  Config value: 'strict' = True 
+DEBUG   -  Config value: 'remote_branch' = 'gh-pages' 
+DEBUG   -  Config value: 'remote_name' = 'origin' 
+DEBUG   -  Config value: 'extra' = {'posts_dir': 'posts/'} 
+DEBUG   -  Config value: 'plugins' = PluginCollection([('search', <mkdocs.contrib.search.SearchPlugin object at 0x7fc020cbaf40>)]) 
+INFO    -  Cleaning site directory 
+INFO    -  Building documentation to directory: /home/lincoln/Insync/lombelets_drive/website/mkdocs/build 
+DEBUG   -  Reading markdown pages. 
+DEBUG   -  Reading: index.md 
+DEBUG   -  Reading: about.md 
+DEBUG   -  Reading: publications.md 
+DEBUG   -  Reading: reading.md 
+DEBUG   -  Reading: posts/2020/bio-future.md 
+DEBUG   -  Reading: posts/2020/prestige-tone.md 
+DEBUG   -  Copying static assets. 
+DEBUG   -  Copying media file: 'CNAME' 
+DEBUG   -  Copying media file: 'extra.css' 
+DEBUG   -  Copying media file: 'css/base.css' 
+DEBUG   -  Copying media file: 'css/bootstrap.min.css' 
+DEBUG   -  Copying media file: 'css/font-awesome.min.css' 
+DEBUG   -  Copying media file: 'fonts/fontawesome-webfont.eot' 
+DEBUG   -  Copying media file: 'fonts/fontawesome-webfont.svg' 
+DEBUG   -  Copying media file: 'fonts/fontawesome-webfont.ttf' 
+DEBUG   -  Copying media file: 'fonts/fontawesome-webfont.woff' 
+DEBUG   -  Copying media file: 'fonts/fontawesome-webfont.woff2' 
+DEBUG   -  Copying media file: 'fonts/glyphicons-halflings-regular.eot' 
+DEBUG   -  Copying media file: 'fonts/glyphicons-halflings-regular.svg' 
+DEBUG   -  Copying media file: 'fonts/glyphicons-halflings-regular.ttf' 
+DEBUG   -  Copying media file: 'fonts/glyphicons-halflings-regular.woff' 
+DEBUG   -  Copying media file: 'fonts/glyphicons-halflings-regular.woff2' 
+DEBUG   -  Copying media file: 'img/favicon.ico' 
+DEBUG   -  Copying media file: 'img/grid.png' 
+DEBUG   -  Copying media file: 'js/base.js' 
+DEBUG   -  Copying media file: 'js/bootstrap.min.js' 
+DEBUG   -  Copying media file: 'js/jquery-1.10.2.min.js' 
+DEBUG   -  Copying media file: 'search/lunr.js' 
+DEBUG   -  Copying media file: 'search/main.js' 
+DEBUG   -  Copying media file: 'search/worker.js' 
+DEBUG   -  Building theme template: sitemap.xml 
+DEBUG   -  Gzipping template: sitemap.xml 
+DEBUG   -  Building theme template: 404.html 
+DEBUG   -  Building markdown pages. 
+DEBUG   -  Building page index.md 
+DEBUG   -  Building page about.md 
+DEBUG   -  Building page publications.md 
+DEBUG   -  Building page reading.md 
+DEBUG   -  Building page posts/2020/bio-future.md 
+DEBUG   -  Building page posts/2020/prestige-tone.md 
+INFO    -  Documentation built in 0.09 seconds 
 Test build succeeded, committing to main

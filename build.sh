@@ -3,6 +3,7 @@
 LOGFILE="build.log"
 FILES="."
 MESSAGE="$0 at $(date)"
+ENV_PATH="mkdocs_env"
 
 usage() { 
 	echo " 
@@ -16,6 +17,14 @@ Usage: $0 [-d] [-b] [-m <message>] [-f <files>] [ -l <logfile> ]
 "
 
 	exit 0;
+}
+
+cleanup_exit() {
+	if [[ $VENV -eq 1 ]]; then
+		deactivate
+	fi
+
+	exit $1
 }
 
 
@@ -48,38 +57,48 @@ done
 
 
 echo "$0 started at $(date)\n\n" | tee $LOGFILE
+
+if [[ -e $ENV_PATH ]]; then
+	source $ENV_PATH/bin/activate
+	VENV=1
+else
+	VENV=0
+fi
+
+
 mkdocs build --site-dir build --verbose --strict &>> $LOGFILE
 
 if [[ $NOCOMMIT && $NODEPLOY ]]; then
 	echo "Local build complete and -d was specified, exiting." | tee -a $LOGFILE
-	exit 0;
+	cleanup_exit 0;
 fi
 
 if [[ $? -eq 0 ]]; then
-	echo "\n\nTest build succeeded, committing to main \n\n" | tee -a $LOGFILE
+	echo "Test build succeeded, committing to main" | tee -a $LOGFILE
 
 	git add $FILES &>> $LOGFILE
 	git commit -m "$MESSAGE" &>> $LOGFILE
 	git push origin main &>> $LOGFILE
 
 	if [[ $NODEPLOY ]]; then
-		echo "\n\n Pushed to main and -b was specified, exiting." | tee -a $LOGFILE
-		exit 0;
+		echo "Pushed to main and -b was specified, exiting." | tee -a $LOGFILE
+		cleanup_exit 0;
 	fi
 
-	echo "\n\nRunning mkdocs gh-deploy...\n\n" | tee -a $LOGFILE
+	echo "Running mkdocs gh-deploy..." | tee -a $LOGFILE
 	mkdocs gh-deploy --strict &>> $LOGFILE
 
 	if [[ $? -eq 0 ]]; then
-		echo "\n\nmkdocs gh-deploy succeeded, exiting.\n\n" | tee -a $LOGFILE
-		exit 0
+		echo "mkdocs gh-deploy succeeded, exiting." | tee -a $LOGFILE
+		cleanup_exit 0
 	else
-		echo "\n\nmkdocs gh-deploy exited with nonzero status ${?}, see logfile ${LOGFILE}" | tee -a $LOGFILE
-		exit 1
+		echo "mkdocs gh-deploy exited with nonzero status ${?}, see logfile ${LOGFILE}" | tee -a $LOGFILE
+		cleanup_exit 1
 	fi
 
 else
 
-	echo "\n\nTest build exited with nonzero exit status, see logfile ${LOGFILE}" | tee -a $LOGFILE
-	exit 1
+	echo "Test build exited with nonzero exit status, see logfile ${LOGFILE}" | tee -a $LOGFILE
+	cleanup_exit 1
 fi
+

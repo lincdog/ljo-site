@@ -1,11 +1,11 @@
 #!/usr/bin/bash
 
-ENV_NAME="mkdocs"
+ENV_PATH="mkdocs_env"
 
 while getopts ":he:" OPTION; do
 	case $OPTION in
 	e)
-		ENV_NAME=$OPTARG
+		ENV_PATH=$OPTARG
 		;;
 	h | *)
 		usage
@@ -13,19 +13,7 @@ while getopts ":he:" OPTION; do
 	esac
 done
 
-CONDA=$(which conda)
 
-if [[ $? -ne 0 ]]; then
-	echo "Conda not found, exiting..." > 2
-	exit 1
-fi
-
-conda activate $ENV_NAME
-
-if [[ $? -ne 0 ]]; then
-	echo "Conda environment ${ENV_NAME} not found, creating..." > 2
-	conda create -n $ENV_NAME
-	conda activate $ENV_NAME
-fi
-
+python -m venv $ENV_PATH
+source $ENV_PATH/bin/activate
 pip install -r requirements.txt &>> setup.log

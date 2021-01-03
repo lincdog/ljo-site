@@ -1,6 +1,6 @@
 site_name: Lincoln Ombelets - ljo.bio 
 site_url: http://ljo.bio/
-site_dir: public/
+site_dir: build/
 repo_url: https://github.com/lincdog/ljo-site
 remote_branch: gh-pages
 edit_uri: blob/main/docs/

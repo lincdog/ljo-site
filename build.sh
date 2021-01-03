@@ -56,7 +56,7 @@ while getopts ":dbm:f:l:" OPTION; do
 done
 
 
-echo "$0 started at $(date)\n\n" | tee $LOGFILE
+echo "$0 started at $(date)" | tee $LOGFILE
 
 if [[ -e $ENV_PATH ]]; then
 	source $ENV_PATH/bin/activate
@@ -67,13 +67,19 @@ fi
 
 
 mkdocs build --site-dir build --verbose --strict &>> $LOGFILE
+TEST_STATUS=$?
 
 if [[ $NOCOMMIT && $NODEPLOY ]]; then
-	echo "Local build complete and -d was specified, exiting." | tee -a $LOGFILE
-	cleanup_exit 0;
+	if [[ $TEST_STATUS -eq 0 ]]; then
+		echo "Local build complete and -d was specified, exiting." | tee -a $LOGFILE
+		cleanup_exit 0;
+	else
+		echo "Local build exited with nonzero exit status, see logfile $LOGFILE" | tee -a $LOGFILE
+		cleanup_exit 1;
+	fi
 fi
 
-if [[ $? -eq 0 ]]; then
+if [[ $TEST_STATUS -eq 0 ]]; then
 	echo "Test build succeeded, committing to main" | tee -a $LOGFILE
 
 	git add $FILES &>> $LOGFILE

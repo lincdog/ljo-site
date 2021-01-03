@@ -3,6 +3,7 @@ site_url: http://ljo.bio/
 site_dir: public/
 repo_url: https://github.com/lincdog/ljo-site
 remote_branch: gh-pages
+edit_uri: blob/main/docs/
 remote_name: origin
 site_author: Lincoln Ombelets
 

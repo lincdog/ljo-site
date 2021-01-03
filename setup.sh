@@ -16,4 +16,4 @@ done
 
 python -m venv $ENV_PATH
 source $ENV_PATH/bin/activate
-pip install -r requirements.txt &>> setup.log
+pip install -r requirements.txt &> setup.log

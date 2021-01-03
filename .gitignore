@@ -1,6 +1,6 @@
 public
 build
-build.log
+*.log
 test
 *.swp
 docs/.drafts/*

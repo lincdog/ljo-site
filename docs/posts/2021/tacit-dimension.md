@@ -40,7 +40,7 @@ One nonliving system that appears to demonstrate some "purpose" is the weather. 
 # Society
 
 Polanyi goes on to propose a human society based on the practice of the scientific or artistic community - one based on each person being knowledgeable about a tiny domain, and auditing/reviewing the conduct of the relatively few people whose domains overlap with their own. The assumption is that these domains together fully cover the space of science or art or society, so a sort of distributed moderation arises.
-While the picture he paints of the practice of science is very accurate and perceptive in my opinio, I won't comment much on this loft proposal here.
+While the picture he paints of the practice of science is very accurate and perceptive in my opinio, I won't comment much on this lofty proposal here.
 
 --------
 

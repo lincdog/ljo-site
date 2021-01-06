@@ -1,6 +1,6 @@
 ---
 post: 1
-title: Thoughts on *The Tacit Dimension* by Michael Polanyi
+title: Thoughts on "The Tacit Dimension" by Michael Polanyi
 description: "This short book is whirlwind read on the topics of knowledge and representation, consciousness, biology, complex systems and even society."
 date: 2021-01-05
 ---

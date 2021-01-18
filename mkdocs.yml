@@ -9,6 +9,8 @@ site_author: Lincoln Ombelets
 
 google_analytics: ['G-C04TMKNPL7', 'ljo.bio']
 
+copyright: "Copyright 2020-2021 Lincoln Ombelets"
+
 theme: 
   name: flatly 
   custom_dir: 'custom_theme/' 

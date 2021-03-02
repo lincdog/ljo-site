@@ -2,6 +2,7 @@
 title: Physical time versus subjective time
 date: 2021-03-01
 description: "Though we use the same word for physical, measured time and our subjective experience of time, I think they are distinct."
+post: 1
 ---
 
 # Time
